@@ -9,7 +9,7 @@ app.engine("ejs", ejs.renderFile);
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// ToDo listesini saklamak için boş bir dizi oluşturun
+
 const todoList = [];
 
 // Ana sayfa için route
